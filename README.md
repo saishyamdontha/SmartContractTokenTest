@@ -26,4 +26,3 @@ npm run test
 - **Gas**: iterating `_holders` in `recordDividend()` is unavoidable
   given the spec's "loop through holders" requirement, but holder
   add/remove itself avoids any array scanning.
-# SmartContractTokenTest
